@@ -1,5 +1,8 @@
 # esp8266
 
+![GitHub License](https://img.shields.io/github/license/marie-curie-stem/esp8266)
+![GitHub Release](https://img.shields.io/github/v/release/marie-curie-stem/esp8266)
+
 Projects with the ESP8266.
 
 ## OLED over I2C and SH1106 driver
