@@ -7,7 +7,7 @@ The main characteristics are:
 
 ## Calculating Prime numbers
 
-EXAMPLE PICTURE
+![Setup with OLED](oled_prime.jpg)
 
 With only one button as input (flash on D0) and a 128x64 monochrome interface you can actually build a user interface (UI). Short press to select, long press to confirm. In this case you can scroll through the recorded times for calculation the prime numbers to a certain threshold, and a long press get's you to the actual calculation.
 
