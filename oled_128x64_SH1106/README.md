@@ -1,3 +1,19 @@
+# OLED display 128x64 over I2C
+
+The main characteristics are:
+
+- Driver u8g2 - fast driver for all kinds of displays
+- Connection over I2C on pin 12 and 14
+
+## Calculating Prime numbers
+
+EXAMPLE PICTURE
+
+With only one button as input (flash on D0) and a 128x64 monochrome interface you can actually build a user interface (UI). Short press to select, long press to confirm. In this case you can scroll through the recorded times for calculation the prime numbers to a certain threshold, and a long press get's you to the actual calculation.
+
+Here again you select the threshold. And a long press starts the calculation. The code got longer and more structured over time:
+
+``` c
 // Prime numbers in Arduino C v5.6 2023/12/22 for ESP8266-12E with SH1106 oled
 // Wemos ESP8266 1.14" 128x64 OLED display
 // 2023-12-22 Code
@@ -387,3 +403,4 @@ void show_final(int index, float duration) {
   u8g2.print(sec);     u8g2.print("s");
   u8g2.sendBuffer();
 }
+```
