@@ -1,8 +1,10 @@
 // Prime numbers in Arduino C v5.6 2023/12/22 for ESP8266-12E with SH1106 oled
 // Wemos ESP8266 1.14" 128x64 OLED display
-// one button as input 2024/01/04
-// Update 2026/10/05 Selector (long press) and calculation trigger added 
-/* Inspired by https://github.com/kreier/ESP8266/blob/main/oled_128x64/prime_u8g2/prime_u8g2.ino */
+// 2023-12-22 Code
+// 2024-01-04 One button as input 
+// 2026-10-05 Selector (long press) and calculation trigger added 
+// Inspired by https://github.com/kreier/ESP8266/blob/main/oled_128x64/prime_u8g2/prime_u8g2.ino
+// https://github.com/marie-curie-stem/esp8266/edit/main/oled_128x64_SH1106/oled_prime_v5-6/oled_prime_v5-6.ino
 
 #include <U8g2lib.h>
 #include <Wire.h>
