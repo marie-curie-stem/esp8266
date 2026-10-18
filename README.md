@@ -423,4 +423,14 @@ void show_final(int index, float duration) {
 }
 ```
 
-To be continued ...
+## Motorshield
+
+There is a popular motorshield for the NodeMCU 1.0 12E available with an L293D motor driver bridge. Here is pinout and example image:
+
+<img src="./public/L293D_pin.jpg" width="49%"> <img src="./public/L293D_img.jpg" width="49%">
+
+## PS2 controller
+
+It's a unique SPI bus, but maybe it works with the ESP8266? If not, bitbang is your friend.
+
+![ps2 controller](./public/ps2.jpg)
