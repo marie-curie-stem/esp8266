@@ -5,6 +5,14 @@
 
 Projects with the ESP8266.
 
+## ESP8266 32x8 LED Matrix: Vietnamese Scroller & Animations
+
+A small Arduino sketch for the **Wemos/LOLIN D1 mini (ESP8266)** and a **4-in-1 MAX7219 8x8 LED matrix** (FC-16 style, 32x8 pixels). It scrolls Vietnamese text and plays a set of small pixel animations in a loop.
+
+![Demo](MAX7219_32x8/demo.gif)
+
+![example](MAX7219_32x8/hello.jpg)
+
 ## OLED over I2C and SH1106 driver
 
 See more examples in [this folder](./oled_128x64_SH1106/)
@@ -434,3 +442,7 @@ There is a popular motorshield for the NodeMCU 1.0 12E available with an L293D m
 It's a unique SPI bus, but maybe it works with the ESP8266? If not, bitbang is your friend.
 
 ![ps2 controller](./public/ps2.jpg)
+
+## MAX7219 display
+
+![example](MAX7219_32x8/hello.jpg)
